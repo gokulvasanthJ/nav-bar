@@ -1,0 +1,65 @@
+body{
+    width:auto;
+    height: auto;
+}
+
+.container{
+    background-color:#fdf4f4;
+    width:auto;
+    height:auto;
+    overflow:hidden
+  
+}
+
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    color:rgb(243, 228, 228);
+    font-weight:800;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: rgb(77, 79, 82);
+    position:relative;
+    top:10px;    
+    padding:10px;
+   
+}
+.box{
+
+    padding:5px;
+    background-color: transparent;
+    border:1px solid rgb(110, 108, 108)
+ }
+
+#about{
+   position:relative;
+   left:200px
+}
+#home{
+    position:relative;
+    right:200px;
+}
+#news{
+    position:relative;
+    right:260px;
+}
+#contact{
+    position:relative;
+    right:310px;
+}
+
+#search{
+    display:flex;
+    justify-content: center;
+   position:relative;
+   bottom:40px;
+   left:200px;
+}
+#icon{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    left:270px;
+    bottom:58px;
+    
+}
